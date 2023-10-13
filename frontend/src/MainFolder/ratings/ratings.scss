@@ -1,0 +1,48 @@
+#ratings {
+    overflow: hidden;
+    // height: 50vh;
+
+    >h1 {
+        margin: 1rem;
+    }
+
+    .rcard-row {
+        display: inline-flex;
+
+        // justify-content: center;
+        // align-items: center;
+        >.row1 {
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-evenly;
+            animation: 120s slide infinite linear;
+
+
+            @keyframes slide {
+                from {
+                    transform: translateX(0);
+                }
+
+                to {
+                    transform: translateX(-100%);
+                }
+            }
+        }
+
+        &:hover {
+            animation-play-state: paused;
+        }
+    }
+
+}
+
+@media screen and (max-width : "800px") {
+    #price {
+        .pcard-row {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.gcards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffc104;
+  width: 20rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+.gcards > a {
+  text-decoration: none;
+  color: inherit;
+}
+.gcards > a > .gcards-content {
+  display: flex;
+  flex-direction: column;
+}
+.gcards > a > .gcards-content > .point {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 20rem;
+}
+.gcards > a > .gcards-content > .point > svg {
+  margin: 0 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+@media screen and (max-width: 800px) {
+  .gcards {
+    padding: 0;
+  }
+}/*# sourceMappingURL=gcards.css.map */

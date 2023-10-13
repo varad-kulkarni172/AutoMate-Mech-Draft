@@ -1,0 +1,30 @@
+.common .backButton {
+  position: relative;
+  z-index: 111;
+  top: 2rem;
+  left: 2rem;
+  text-decoration: none;
+  color: black;
+}
+.common .backButton svg {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.common .com-card-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .common .backButton {
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+  }
+  .common .backButton svg {
+    width: 3rem;
+    height: 3rem;
+  }
+}/*# sourceMappingURL=common.css.map */

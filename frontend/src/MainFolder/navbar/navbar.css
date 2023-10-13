@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80px;
+  background-color: #ffc104;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.navbar > a {
+  text-decoration: none;
+  color: black;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 1.5rem;
+}
+.navbar > a:hover {
+  background-color: #f7e880;
+  color: #6e0e05;
+}
+
+@media screen and (max-width: 800px) {
+  .navbar {
+    display: none;
+  }
+}/*# sourceMappingURL=navbar.css.map */
